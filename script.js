@@ -7,3 +7,18 @@
 * Github: https://github.com/csengekulker/
 * Licenc: GNU GPL
 */
+
+const cl = console.log
+const sideInput = document.getElementById('side')
+const alphaInput = document.getElementById('alpha')
+const submitButton = document.getElementById('submitButton')
+const resultBox = document.getElementById('resultInput')
+
+// cl('mukodik')
+
+submitButton.addEventListener('click', () => {
+    let sideValue = sideInput.value 
+    let alphaValue = alphaInput.value 
+
+    
+})

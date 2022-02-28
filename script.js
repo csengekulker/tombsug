@@ -44,5 +44,7 @@ submitButton.addEventListener('click', () => {
 
     cl(radius)
 
+    resultBox.value = radius.toLocaleString()
+
 
 })

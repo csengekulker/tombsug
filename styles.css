@@ -7,3 +7,39 @@
 * Github: https://github.com/csengekulker/
 * Licenc: GNU GPL
 */
+
+.container {
+    background-color: beige;
+    margin: 2%;
+    padding: 15px;
+    border-radius: 20px;
+    border: solid 3px brown;
+    box-shadow: 15px 15px 15px brown;
+    text-align: center;
+}
+
+form {
+    margin-right: auto;
+    margin-left: auto;
+}
+
+input {
+    margin-bottom: 3px;
+}
+
+button {
+    padding: 5px;
+    border-radius: 3px;
+    margin-bottom: 5px;
+    background-color: antiquewhite;
+    width: 20%;
+}
+
+button:hover {
+    background-color: aliceblue;
+    border-color: black;
+}
+
+h1 {
+    font-family: sans-serif;
+}

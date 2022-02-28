@@ -9,37 +9,59 @@
 */
 
 .container {
-    background-color: beige;
+    background-color: rgb(124, 158, 155);
     margin: 2%;
     padding: 15px;
     border-radius: 20px;
-    border: solid 3px brown;
-    box-shadow: 15px 15px 15px brown;
+    border: solid 3px rgb(123, 221, 200);;
+    box-shadow: 15px 15px 15px rgb(22, 95, 79);;
     text-align: center;
 }
 
 form {
     margin-right: auto;
     margin-left: auto;
+    width: 50%;
+}
+
+.result {
+    margin-right: auto;
+    margin-left: auto;
+    width: 50%;
 }
 
 input {
     margin-bottom: 3px;
+    float: right;
+}
+
+label {
+    float: left;
 }
 
 button {
     padding: 5px;
-    border-radius: 3px;
+    border-radius: 5px;
+    border-color: rgb(123, 221, 200);
     margin-bottom: 5px;
-    background-color: antiquewhite;
-    width: 20%;
+    /* margin-right: auto;
+    margin-left: auto; */
+    background-color: rgb(124, 158, 155);
+    width: 100%;
 }
 
 button:hover {
-    background-color: aliceblue;
-    border-color: black;
+    background-color: rgb(195, 233, 230);
+    border-color: rgb(48, 63, 60);
+    animation: buttonColor .5s forwards;
 }
 
 h1 {
     font-family: sans-serif;
+}
+
+@keyframes buttonColor {
+    0% { background-color: rgb(123, 221, 200); }
+    0% { background-color: rgb(123, 221, 200); }
+    0% { background-color: rgb(124, 158, 155); }
 }
